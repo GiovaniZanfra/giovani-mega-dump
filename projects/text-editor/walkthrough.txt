@@ -1,0 +1,6 @@
+1. Features:
+    Inserting
+    Deleting
+    Cursor movement
+    undo/redo 
+    word wrapping

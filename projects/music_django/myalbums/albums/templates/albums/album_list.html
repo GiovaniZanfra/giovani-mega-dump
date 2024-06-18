@@ -1,0 +1,7 @@
+<h2>Album List</h2>
+<ul>
+{% for album in albums %}
+    <li><a href="{% url 'album_detail' pk=album.pk %}">{{ album.name }}</a></li>
+{% endfor %}
+</ul>
+<a href="{% url 'album_create' %}">Add new album</a>
